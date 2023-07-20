@@ -1,0 +1,30 @@
+.nav {
+    font-size: 1.5rem;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 7.5rem;
+    margin: 0 auto;
+}
+
+.nav_logo {
+    margin-top: .2rem;
+}
+
+.nav_menu {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    text-transform: uppercase;
+    gap: 2.4rem;
+}
+
+.nav_menu li {
+    cursor: pointer;
+}
+
+.btn_login {
+    background-color: red;
+    color: white;
+}
