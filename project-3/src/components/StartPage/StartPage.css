@@ -1,0 +1,23 @@
+.start-page {
+    display: flex;
+    justify-content: center;
+}
+
+.start-page-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.start-page-title-container {
+    width: 60rem;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.start-page-title {
+    font-size: 10rem;
+}

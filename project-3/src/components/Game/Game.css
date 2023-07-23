@@ -1,0 +1,86 @@
+.error-msg {
+    color: red;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 2rem;
+    width: 120rem;
+    margin: 4rem auto 0 auto;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.game-container-head {
+    width: 120rem;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.game-container-score {
+    font-size: 2.5rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.game-container-score-counter {
+    font-size: 5rem;
+}
+
+.dice-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 2rem;
+    font-size: 1.6rem;
+}
+
+.dice {
+    display: flex;
+    gap: 2rem;
+}
+
+.dice-number {
+    height: 6rem;
+    width: 6rem;
+    border: .3rem solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.selected {
+    background-color: black;
+    color: white;
+}
+
+.game-rules {
+    padding: 1rem;
+    font-size: 1.2rem;
+    height: 15rem;
+    width: 50rem;
+    background-color: rgb(242, 203, 196);
+    display: none;
+}
+
+.game-rules-title {
+    margin-bottom: 1rem;
+}
+
+.game-rules-show {
+    display: block;
+}
