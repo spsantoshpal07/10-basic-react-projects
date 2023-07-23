@@ -46,6 +46,10 @@
     font-size: 1.6rem;
 }
 
+.dice-container p {
+    font-weight: 600;
+}
+
 .dice {
     display: flex;
     gap: 2rem;

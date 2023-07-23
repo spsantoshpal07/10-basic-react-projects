@@ -25,6 +25,7 @@ const Game = () => {
             const randomValue = Math.floor(Math.random() * 6);
             setRandom(randomValue);
             randomValue+1 === selectedNum ? setScore(score + selectedNum) : setScore(score - 2);
+            setSelectedNum();
             setShowErrorMsg(false);
         } else {
             setShowErrorMsg(true);
