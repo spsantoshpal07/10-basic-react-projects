@@ -1,0 +1,9 @@
+.roll-dice-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
